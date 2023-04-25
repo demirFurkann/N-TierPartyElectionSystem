@@ -13,5 +13,11 @@ namespace Project.ENTITIES.Models
         //Relational Properties
 
         public virtual List<Party> Parties { get; set; }
+
+
+        public Province()
+        {
+            Parties = new List<Party>();
+        }
     }
 }

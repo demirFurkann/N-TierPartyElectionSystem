@@ -17,5 +17,11 @@ namespace Project.ENTITIES.Models
         public virtual List<Vote> Votes { get; set; }
 
 
+        public override string ToString()
+        {
+            return $"{PartyName}";
+        }
+
+
     }
 }

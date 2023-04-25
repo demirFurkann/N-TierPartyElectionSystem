@@ -17,7 +17,7 @@ namespace Project.BLL.DesignPatterns.SingletonPattern
         {
             get
             {
-                if(_dbInstance != null) _dbInstance= new MyContext();
+                if(_dbInstance == null) _dbInstance= new MyContext();
                 return _dbInstance;
             }
         }
