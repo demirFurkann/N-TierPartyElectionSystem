@@ -77,5 +77,12 @@ namespace Project.WFAUI
 
 
         }
+
+        private void btnGrafik_Click(object sender, EventArgs e)
+        {
+            FrmGrafikler frg = new FrmGrafikler();
+
+            frg.ShowDialog();
+        }
     }
 }

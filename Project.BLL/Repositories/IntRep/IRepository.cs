@@ -43,5 +43,7 @@ namespace Project.BLL.Repositories.IntRep
         List<T> GetLastDatas(int number);
         //FirstDatas
         List<T> GetFirstDatas(int number);
+
+
     }
 }

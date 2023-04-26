@@ -14,5 +14,9 @@ namespace Project.BLL.Repositories.ConcRep
         {
 
         }
+        public List<Province> GetAllByProvinceId(int provinceId)
+        {
+            return _db.Provinces.Where(d => d.ID == provinceId).ToList();
+        }
     }
 }

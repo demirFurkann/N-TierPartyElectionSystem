@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace Project.ENTITIES.Models
 
         public virtual Province Province { get; set; }
         public virtual List<Vote> Votes { get; set; }
+
+        public Party()
+        {
+            Votes = new List<Vote>();
+        }
 
 
         public override string ToString()

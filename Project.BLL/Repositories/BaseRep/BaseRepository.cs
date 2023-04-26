@@ -13,7 +13,7 @@ namespace Project.BLL.Repositories.BaseRep
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
-        MyContext _db;
+       protected MyContext _db;
         public BaseRepository()
         {
             _db = DBTool.DbInstance;

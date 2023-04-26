@@ -164,6 +164,7 @@
             this.btnGrafik.TabIndex = 3;
             this.btnGrafik.Text = "GRAFİKLER";
             this.btnGrafik.UseVisualStyleBackColor = true;
+            this.btnGrafik.Click += new System.EventHandler(this.btnGrafik_Click);
             // 
             // btnCikisYap
             // 
